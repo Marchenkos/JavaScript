@@ -1,0 +1,166 @@
+header{
+  background:white;
+  width:100%;
+  height:8%;
+  position: fixed;
+  z-index: 100;
+  margin-top:-0.625em;
+  border-bottom:1px solid;
+}
+#footer {
+    height: 20em;
+    width: 100%;
+    background: black;
+    margin-top:12.5em;
+}
+.contacts {
+    position: absolute;
+    text-align: center;
+    width:100%;
+    margin-top: 10%;
+}
+
+.contacts img {
+    margin-left:0.9em;
+}
+.rigts{
+    position: absolute;
+    text-align: center;
+    width:100%;
+    margin-top: 17%;
+    font-family:Mont;
+    font-size:0.75em;
+    color:white;
+
+}
+#da{
+    position:absolute;
+    color:white;
+    font-family:Geogeous;
+    font-size:3.125em;
+    margin-top:3%;
+    text-align:center;
+    width:100%;
+}
+div ~ p
+{
+    font-family:Mont;
+    font-size:0.8em;
+    position:absolute;
+    text-align:center;
+    width:100%;
+    color:white;
+    margin-top:7.5%;
+}
+.menu{
+  margin-top:1.6em;
+  margin-left: -5em;
+}
+
+ul{
+  list-style: none;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family:Mont;
+}
+.menu ul {
+  padding: 1em 0;
+
+}
+.menu a {
+  padding: 1em;
+  color:Gray;
+}
+.menu a:hover {
+  color:black;
+}
+.menu li {
+  width:100%;
+  font-size:1.25em;
+  margin-left:5em;
+  display:inline;
+}
+ul.submenu {
+  display: none ;
+  position: absolute;
+}
+ul.submenu > li {
+  display:block ;
+  margin-top:-0.95em;
+}
+ul.submenu > li > a {
+  display: block;
+  width:7em;
+  background:WhiteSmoke;
+
+}
+.submenu a:hover{
+  background:Gainsboro;
+  color:white;
+}
+ul.menu > li:hover > ul.submenu {
+  display: block;
+  margin-top:1em;
+}
+
+.submenu a:hover{
+  background:Gainsboro;
+  color:white;
+}
+#p1{
+  margin-left:10%;
+}
+#p2{
+  margin-left:24%;
+}
+#p3{
+  margin-left:42%;
+}
+
+.container-form{
+  margin-top:-1.4em;
+}
+#text-to-find{
+  width:9.5%;
+  height:1.5em;
+  border-radius:1.85em;
+  border:1px solid #BDBDBD;
+  margin-left:-15% ;
+  outline:none;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+button {
+  margin-left: 93%;
+  width:4%;
+  border:none;
+  background-color:transparent;
+  outline:none;
+}
+@media screen and (max-width: 1100px) {
+  .menu li {
+    font-size:1.25em;
+    display:inline;
+    margin-left: 1.5em;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+  .menu li {
+    margin-left: 0.8em;
+    font-size:1em;
+    display:inline;
+  }
+}
+@media screen and (max-width: 600px) {
+  .menu li {
+    margin-left: 0.5em;
+    font-size:0.5em;
+    display:inline;
+  }
+
+}
