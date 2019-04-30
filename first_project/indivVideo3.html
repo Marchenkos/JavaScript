@@ -1,0 +1,231 @@
+<html>
+<head>
+<meta charset="UTF-8">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="application/javascript" src="Script1.js"></script>
+    <script type="application/javascript" src="Script2.js"></script>
+   <script type="application/javascript" src="Script3.js"></script> 
+    
+      <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/CssMonWin.css">
+    
+      
+<title>Main page</title>
+<link href="css/ForIndiv.css" rel="stylesheet">
+    <link href="css/CssMain.css" rel="stylesheet">
+</head>
+<body onload="plusSlides(1)">
+    
+    
+    <div class="page">
+<div id="Hat">
+<div class="Bl">AUTO</div>
+<div class="s">SOUND</div>
+    <div id="divForMenu">
+<ul class="menu" style="list-style: none">
+	<li class="drop"><a href="MPage.html">Главная</a></li>
+	<li class="drop"><a href="Catalog.html">Каталог</a>
+		<ul class="submenu">
+            <li><a href="CatalogMagn.html">Магнитолы</a></li>
+            <li><a href="CatalogVideoreg.html">Видеорегистраторы</a></li>
+            <li><a href="CatalogKolonky.html">Колонки</a></li>
+		</ul>
+	</li>
+	<li class="drop"><a href="DeliveryTerms.html">Доставка</a>
+		<ul class="submenu" style="height: 145px">
+            <li><a href="DeliveryTerms.html">Условия доставки</a></li>
+            <li><a href="DeliveryForms.html">Оформить доставку</a>
+                </li>
+		</ul>
+	</li>
+	<li class="drop"><a href="MPage.html">О нас</a>
+	</li>
+</ul>
+    </div>
+    
+     <div class="pageBasket">
+         <a href="DeliveryForms.html"><div style="font-size: 1.3em; margin-left: 50%;margin-top: 26%; color:#333366;font-family: Century Gothic; text-decoration: none;">Log in</div></a>
+        
+         <a href="DeliveryForms.html"><img src="additionalPictures/user.png" width="35%" style="margin-top: -25%; margin-left: 6%; border:none; " height="40" alt=""></a></div>
+</div>
+            <div class="product" style="height: 480px">
+    
+        <div class="headline" style="background-color: #50507f; color: white; width: 35%; height: 75px;font-size: 2em;margin-top: 140px; padding-left: 4%;padding-top: 2%">Видеорегистраторы</div>
+                
+                
+                
+                <div class="links"><a href="MPage.html" >Главная</a> - <a href="Catalog.html"> Каталог</a> - <a 
+                href="CatalogVideoreg.html">Видеорегистраторы</a></div>
+                
+            <div style="background-color: white;width: 93%;height: 620px; margin-left: 55px;">
+                
+                
+            <div style="background-color: white;width: 93%;height: 620px; margin-left: 55px;">
+                
+                  <div style="padding-left:25px; padding-top: 20px; font-size: 1.8em;" >Видеорегистратор JVC CS-J620</div>
+                
+                <p style="color: gainsboro;padding-left: 25px; font-size: 0.8em;   margin-top: 0.2em;">Код: 51278</p>
+
+            <div class="ForButt">
+        <div class="dot" onclick="currentSlide(4)"><img src="videoreg/3-1.jpg"></div>
+         <div class="dot" onclick="currentSlide(2)" ><img src="videoreg/3-5.jpg"></div>
+         <div class="dot" onclick="currentSlide(3)"><img src="videoreg/3-4.jpg" ></div>
+         
+        </div>
+                                
+<div class="slideshow-container">
+  
+        <div class="mySlides fade">
+            <img src="videoreg/3-1.jpg" style="margin-left: 7%" width="80%" height="80%" alt="">
+    </div>
+    <div class="mySlides fade">
+        <img src="videoreg/3-5.jpg" width="80%" style="margin-top: 2%;margin-left: 7%" height="90%" alt="">
+        </div>
+    
+     <div class="mySlides fade">
+    
+        <img src="videoreg/3-4.jpg" width="80%" style=" margin-top: 10%" height="70%" alt="">
+       
+        </div>
+    
+    
+    <img class="prev" style=" margin-left: 28%" src="Icon/str.png" onclick="plusSlides(-1)">
+        <img class="next" src="Icon/str.png" style="transform: rotate(180deg)" onclick="plusSlides(1)">
+    
+                </div>
+                
+                <div style="float: left;height: 500px;width: 10%; margin-left: 25px;">
+              
+                        
+                    
+        <div class="descr1" style="left: 69%;" >
+         
+            <span style="color: black;font-size: 0.8em">Price:</span> €29.00
+                    </div>
+        
+                 <a href="#" class='btn open-modal' style="position: absolute;top: 780px;left:69%"  data-modal="#modal1">Добавить в корзину</a>
+
+<div class='modal' id='modal1'>
+	<div class='content'>
+        <h1 class='title'>Ваш заказ принят!</h1>
+		<p>
+				Оформление заказа может занять несколько часов
+		</p>
+		<a class='btn close-modal' style="width: 250px" data-modal="#modal1" href="#">Вернуться</a>
+	</div>	
+</div>
+       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script  src="index.js"></script>
+                    
+       <div class='modalWin' id='modal1Win'>
+	<div class='contentWin'>
+        <h1 class='titleWin'>Ваш заказ не принят!</h1>
+		<p>
+				Оформление заказа может занять несколько часов
+		</p>
+		<a class='btn2 close2-modalWin' style="width: 250px" data-modal="#modal1Win" href="#">Вернуться</a>
+	</div>	
+</div>             
+                    
+                    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script  src="JsModWin.js"></script>
+
+                    
+    
+             <div class="delivery">
+                    <span>Условия доставки</span>
+                 <p>Ваш регион: <span style="color: black;font-size: 1em"> Минск</span></p>
+                   
+
+<p>Доставка: <span style="color: black;font-size: 1em">курьер, самовывоз</span></p>
+              
+                 <p>Время ожидания: <span style="color: black;font-size: 1em">5 дней</span></p>
+
+                
+                 <p>Стоимость: <span style="color: black;font-size: 1em">БЕСПЛАТНО</span></p>
+                
+                </div>   
+        </div>
+                
+                   </div>
+                
+                 <div class="headline" style="background-color: #50507f; color: white; width: 30%; height: 50px;font-size: 2em;margin-left: 4.5%; margin-top: 40px; padding-left: 4%;padding-top: 2%">Характеристики</div>
+                 <table class="i">
+            <tr>
+    <td colspan="2" style="border: none;background-color: beige;15px;font-size: 1.6em; ">Основные</td>
+            </tr>
+<tr>
+    <td>Тип</td>
+    <td id="first"></td>
+
+ </tr>
+<tr><td >Количество полос </td>
+    <td id="second" ></td>
+</tr>
+<tr><td>Диапазон частот</td>
+    <td id="third" ></td>
+</tr>
+<tr><td>Бренд</td>
+    <td id="fou"></td>
+</tr>
+</table>
+                <table>
+            <tr>
+    <td   colspan="2" style="border: none;background-color: beige;15px;font-size: 1.6em; ">Дополнительные</td>
+            </tr>
+<tr>
+    <td>Страна производитель</td>
+    <td id="f"></td>
+
+ </tr>
+<tr><td >Чувствительность</td>
+    <td id="six" ></td>
+</tr>
+<tr><td>Типоразмер</td>
+    <td id="sev" ></td>
+</tr>
+<tr><td>Срок службы</td>
+    <td id="e"></td>
+</tr>
+</table>
+                 <script>
+            if(window.XMLHttpRequest)
+                {
+                    xmlhttp=new XMLHttpRequest();
+                    
+                }
+            else
+                {
+                    xmlhttp= new ActiveXObject("Microsoft.XMLHTTP");
+                }
+            xmlhttp.open("GET", "L3.xml", false);
+            xmlhttp.send();
+            xmlDoc=xmlhttp.responseXML;
+           
+             document.getElementById("first").innerHTML=xmlDoc.getElementsByTagName("NAME")[0].childNodes[0].nodeValue;
+             document.getElementById("second").innerHTML=xmlDoc.getElementsByTagName("NUM")[0].childNodes[0].nodeValue;
+            document.getElementById("third").innerHTML=xmlDoc.getElementsByTagName("EXAM")[0].childNodes[0].nodeValue;
+            document.getElementById("fou").innerHTML=xmlDoc.getElementsByTagName("CITY")[0].childNodes[0].nodeValue;
+                     
+                     
+                     document.getElementById("f").innerHTML=xmlDoc.getElementsByTagName("NAME2")[0].childNodes[0].nodeValue;
+             document.getElementById("six").innerHTML=xmlDoc.getElementsByTagName("NUM2")[0].childNodes[0].nodeValue;
+            document.getElementById("sev").innerHTML=xmlDoc.getElementsByTagName("EXAM2")[0].childNodes[0].nodeValue ;
+            document.getElementById("e").innerHTML=xmlDoc.getElementsByTagName("CITY2")[0].childNodes[0].nodeValue;
+        </script>
+                
+             
+    </div>
+        
+    </div>
+
+    </body>
+</html>

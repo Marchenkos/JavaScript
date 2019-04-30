@@ -1,0 +1,185 @@
+@font-face
+{
+   font-family:Proun;
+    scr:url(Proun Normal.ttf);    
+}
+@font-face{      
+     font-family:MADE Evolve Sans EVO;
+    scr:url(11683.ttf);
+}
+
+
+
+body{
+	margin:0;
+	padding:0;
+    background-color: #F2F2F2;
+    font: normal 100% Century Gothic;
+	
+}
+a
+{
+text-decoration: none;
+}
+.page
+{
+    width: 100%;
+
+}
+.floor
+{
+   top: 100px;
+   width: 100%;
+   height: 110px;
+    position: absolute;
+   background-color: #333366;
+   color: white;
+    font: normal 0.8em Century Gothic;    
+    
+}
+#Hat
+{
+ font-family: MADE Evolve Sans EVO; 
+  background-color: #FAFAFA;
+    height: 102px;
+    width: 100%;
+   position: fixed;
+  top: 0;
+       z-index: 1;
+    border-bottom: 1px solid #D8D8D8;
+}
+.pageBasket
+{
+    width: 12%;
+    height:40px;
+    margin-left: 87%;
+     margin-top: 32px;
+    
+}
+
+#Log
+{
+  font-size: 1.5em;
+    margin-left: 50%;
+    margin-top: 28%; 
+    color:#333366;
+    font-family: Century Gothic; 
+    text-decoration: none;  
+    
+}
+.pageBasket img
+{
+    margin-top: -25%;
+  width:35%;
+    margin-left: 6%; 
+    border:none; 
+    
+}
+
+#divForMenu
+{
+    float: left;
+    height: 65px;
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 37%;
+     position: fixed;
+    float: left;
+}
+.s
+{
+    font-family: MADE Evolve Sans EVO;
+    float: left; 
+    width: 16%;
+    margin-top: 25px;
+    font-size: 2.8125em;
+    text-align: center;
+}
+
+.Bl
+{ 
+
+    height: 63px;
+    width: 12%;
+    float:left;
+   font-family: MADE Evolve Sans EVO;
+    font-size: 2.8125em;
+    color:white;
+    padding-top:10px ;
+    margin-left: 4%;
+    margin-top: 14px ;
+    text-align: center;
+    background-color: #333366;}
+ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+    width: 100%;
+}
+ul:after{
+	 display: block;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 25%;
+}
+ul.menu > li > a {
+       font-family:Proun;
+    display: block;
+    padding: 10px;
+    color: #2E2E2E;
+       height: 43px;
+    width: 150px; 
+    text-align: center;
+    padding-top:35px ;
+    
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: #D8D8D8;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+    width: 230px;
+    height:210px ;
+    background-color: #FAFAFA;
+    margin-top: 2px;
+    opacity: 0.95;
+}
+ul.submenu > li {
+    display: block;
+    font: normal 0.8125em Proun;
+    width:200px;
+    margin-top: 15px; 
+   margin-left: 12px;
+    padding-top: 15px;
+      height: 37px;
+     text-align: center;
+}
+ul.submenu > li>a
+{
+     text-decoration: none;
+    color:#030303;
+    
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+ul.menu > li:hover > ul.submenu>li:hover
+{
+    background-color: #E6E6E6;
+
+    
+}
+ul.menu > li:hover > ul.submenu>li:hover
+
+    a{
+        color:#848484;
+        
+    }
+    

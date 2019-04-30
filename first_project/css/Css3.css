@@ -1,0 +1,28 @@
+.product
+{
+    margin-top: 100px;
+    
+}
+a
+{
+    color:#a2a2a2;
+    text-decoration: none;
+    
+}
+a:hover
+{
+    
+       color:#d3d3d3;
+}
+.block
+{
+    font-family: Century Gothic; 
+    font-size: 5.7em;
+    text-align: center;
+    padding: 57px; 
+    width: 71%; 
+    color:#a2a2a2;
+    height: 200px; 
+    position: absolute;
+    
+}

@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Main page</title>
+    <script type="application/javascript" src="js/Script1.js"></script>
+    <link href="css/CssMain.css" rel="stylesheet">
+     <link href="css/Css2.css" rel="stylesheet">
+</head>
+<body onload="plusSlides(0)">
+<div class="page">
+<div id="Hat">
+<div class="Bl">AUTO</div>
+<div class="s">SOUND</div>
+    <div id="divForMenu">
+<ul class="menu" style="list-style: none">
+	<li class="drop"><a href="MPage.html">Главная</a></li>
+	<li class="drop"><a href="Catalog.html">Каталог</a>
+		<ul class="submenu">
+            <li><a href="CatalogMagn.html">Магнитолы</a></li>
+            <li><a href="CatalogVideoreg.html">Видеорегистраторы</a></li>
+            <li><a href="CatalogKolonky.html">Колонки</a></li>
+		</ul>
+	</li>
+	<li class="drop"><a href="DeliveryTerms.html">Доставка</a>
+		<ul class="submenu" style="height: 145px">
+            <li><a href="DeliveryTerms.html">Условия доставки</a></li>
+            <li><a href="DeliveryForms.html">Оформить доставку</a>
+                </li>
+		</ul>
+	</li>
+	<li class="drop"><a href="MPage.html">О нас</a>
+	</li>
+</ul>
+    </div>
+    
+     <div class="pageBasket">
+         <a href="DeliveryForms.html"><div id="Log">Log in</div></a>
+        
+         <a href="DeliveryForms.html"><img src="additionalPictures/user.png" alt=""></a></div>
+</div>
+    
+    
+   
+    <div id="blFbl">
+        <div class="dot" ><span  >1</span> <br> welcome </div>
+        <div class="dot"><span  >2 </span><br> payment</div>
+        <div class="dot" ><span  >3</span> <br>thanks</div>
+    </div>
+    
+    
+    
+      <div class="slideshow-container" style="width: 100%">
+    
+        <div class="mySlides fade" style="width:70%">
+            
+             
+      <form class="input" name="form">
+          
+          <br>
+         
+              <include style="font-size: 1.8em; color: white;margin-left: 8%;margin-bottom: 10%">Регистрация</include>
+<hr  width="100%" color=" white">
+
+<input class="Regi" type="textarea" placeholder="Введите ваш логин" id="Surname" required style="height:10%;margin-top: 10%"><br>
+     <input  class="Regi" type="password" id="pas" placeholder="Введите свой пароль" style="height:10%"><br>
+       <input class="Regi" type="password" id="verpas" placeholder="Повторите пароль" required style="height:10%"><span></span>
+
+              
+                <div class="butt" onclick="plusSlides(1)">Зарегистрироваться</div>
+          
+          <div><a href="MPage.html"><img  id="str" src="additionalPictures/end.png"></a></div>
+        </form>
+          
+          </div>
+        
+        
+        <div class="mySlides fade" style="width:70%">
+       <form class="input" name="form">
+           
+        
+        <div class="wrapper">
+            <br>
+         <include style="font-size: 1.8em; color: white;margin-left: 122px;margin-bottom: 50px">Оформление заказа</include>
+<hr  width="100%" color="white">
+
+      <input class="Regi" style="margin-top: 60;height:10%" type="textarea" id="f" placeholder="Ваш адрес" id="City" required><span></span><br>
+        <input class="Regi" type="email" style="height:10%" id="k" placeholder="Ваша электронная почта" id="Email" required><span></span><br>
+    
+        <div class="image"></div>
+            <input class="Regi" id="captcha" type="text" style="margin-left: 10%; height:10%; width: 25%;" pattern="55102" required><span></span>
+            <br>
+
+    </div>
+  
+           <div class="butt" id="b" onclick="plusSlides(1); fun()">Заказать</div>
+           
+              <div><a href="MPage.html"><img src="additionalPictures/end.png" id="str" ></a></div>
+</form>
+        </div>
+        
+          <div class="mySlides fade">
+              
+          
+              <div style=" background-color:antiquewhite; width: 43%; text-align: center; margin-bottom: 5%;margin-left: 25% ; padding: 7% 5%; margin-top: 3%; height: 30%;line-height: 1.7; font-size: 1.2em;box-shadow: 1px 0px 14px -1px #C0A57D;" opacity: 0.8; id="cl"></div>
+              
+                <div><a href="MPage.html"><img src="additionalPictures/end.png" id="str"  style="left: 74.5%;top: 50.5%"></a></div>
+              <script>
+               
+                   function fun()
+                  {
+                   var str=document.getElementById("f").value;
+                      var surn=document.getElementById("Surname").value;
+               var str1=document.getElementById("k").value;
+                      document.getElementById("cl").innerHTML=surn+", Ваша регистрация успешно завершена и вся информация о заказанном товаре отправлена на "+str1+". Процесс оформления может занять несколько часов, после чего товар будет выслан на Ваш адрес: "+str+". Спасибо, что выбрали нас! :)";
+                  }
+            
+              
+           </script>
+              
+              
+              </div>
+        </div>
+    </div>
+</body>
+</html>

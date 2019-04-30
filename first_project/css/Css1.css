@@ -1,0 +1,161 @@
+
+
+.slideshow-container
+{
+ margin-left:2%;
+     margin-right:6% ;
+    margin-top: 170px ;
+    width: 38%;
+    position: relative;
+    float: right;
+}
+.mySlides
+{
+    
+    display: none;
+}
+@-webkit-keyframes fade
+{
+    from{opacity:.4}
+    to{opacity:1}
+}
+@keyframes fade
+{
+    from{opacity:.4}
+    to{opacity:1}
+}
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 160px;
+   width: 7%;
+    height: 45px;
+    color: #D8D8D8;
+    background-color: #848484;
+    opacity: 0.6;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next
+{
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+   
+
+}
+.prev:hover
+{
+    background-color: blanchedalmond;
+}
+.next:hover
+{
+    background-color: blanchedalmond;
+}
+.dot
+{
+    cursor: pointer;
+    height: 13px;
+    width: 3%;
+    margin: 0 2px;
+    background-color: #D8D8D8;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, dot:hover{
+    background-color: #848484;  
+}
+.fade
+{
+    -webkit-animation-name:fade; 
+    -webkit-animation-duraction:1.5s;
+    animation-name:fade;
+    animation-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.ForHeadline
+{
+    width:47%;
+    font-size: 0.95em;
+    padding-top:0px ;
+    text-align: center;
+    float: left;
+}
+
+div.description
+{ margin-left: 15%;
+    width: 70%;
+    font: normal 1.25em Century Gothic; 
+      line-height: 1.6;
+}
+h2.headline
+{
+    font: normal 2.4em MADE Evolve Sans EVO;
+      text-align: center;
+}
+.delivery
+{
+   width:85%; 
+    height:485px;
+    margin-left: 9%;
+    margin-top: 28%;
+    float: left;
+}
+
+input[type="text"]
+{
+    padding: 10px;
+    width: 80%;
+    margin-left: 70px;
+    outline: none;
+    border: 2px solid #333366 ;
+    border-radius: 0;
+    font-family:  Century Gothic;
+    font-size: 18px;
+    height: 44px;
+    position: absolute;
+
+}
+  .button_for_search {
+    padding: 12px 24px;
+    font-size: 16px;;
+    background-color: #333366;
+    border: 1px solid #333366;
+    border-radius: 0;
+    outline: none;
+      color: white;
+    cursor: pointer;
+      position: absolute;
+      left: 1170px;
+    
+}
+    .button_for_search:hover{
+      background-color: cadetblue;
+    
+  }
+.button_for_turn_back
+{
+    
+    height: 50px;
+    width: 4%;
+    left: 1120px;
+    top:147px;
+   position: absolute;
+}
+.Find
+{
+    margin-top: 150px;
+    margin-left: 53px;   
+}
