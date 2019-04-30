@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Анимация</title>
+</head>
+
+<body>
+<svg width="1000" height="600">
+<rect fill="linen" width="100%" height="100%"/>
+<circle cy="70" r="50" fill="LightBlue">
+<animate repeatCount="indefinite" attributeName="cx" from="100" to="800"  dur="15s" begin="mousedown" end="mouseup"  />
+</circle>
+<circle cy="400" cx="200"r="50" fill="pink">
+<animate repeatCount="indefinite" attributeName="r" from="50" to="100" dur="5s" begin="mouseover" end="mouseout "/>
+</circle>
+</circle>
+<circle cy="180" cx="200"r="50" fill="pink">
+<animate attributeName="fill" values="MidnightBlue; HotPink; Teal;Crimson;YellowGreen;Gold" dur="15s" fill="freeze"/>
+<animate repeatCount="indefinite" attributeName="cx" from="100" to="800" dur="15s" />
+</circle>
+<circle cy="400" cx="400"r="50" stroke="black"stroke-width="1" fill="pink">
+<animate repeatCount="indefinite" attributeName="stroke-width" from="1" to="90" dur="5s" />
+</circle>
+<div>
+<svg width="240" height="240" >
+<g  fill="none"stroke-width="120"stroke-dasharray="8% 45%">
+<circle r="60" cx="120" cy="120"stroke="crimson">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate(60 60)" from="0" to="360" dur="2s"/>
+</circle>>
+<circle r="60" cx="120" cy="120"stroke="orangered" stroke-dashoffset="8%">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate(60 60)" from="0" to="-360" dur="2s"/>
+</circle>
+<circle r="60" cx="120" cy="120"stroke="orange" stroke-dashoffset="16%">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate(60 60)" from="0" to="360" dur="2s"/>
+</circle>
+<circle r="60" cx="120" cy="120"stroke="gold" stroke-dashoffset="24%">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate(60 60)" from="0" to="-360" dur="2s"/>
+</circle>
+<circle r="60" cx="120" cy="120"stroke="yellowgreen" stroke-dashoffset="32%">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate(60 60)" from="0" to="360" dur="2s"/>
+</circle>
+<circle r="60" cx="120" cy="120"stroke="steelblue" stroke-dashoffset="40%">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate(60 60)" from="0" to="-360" dur="2s"/>
+</circle>
+<circle r="60" cx="120" cy="120"stroke="blueviolet" stroke-dashoffset="48%">
+<animateTransform attributeName="transform" attributeType="XML" type="rotate(60 60)" from="0" to="360" dur="2s"/>
+</circle></g> 
+<circle cy="10" cx="10"r="50" fill="pink" fill-opacity=".7">
+<animateTransform attributeName="transform" attributeType="XML"
+type="scale" from="1" to="10"  dur="5s" fill="freeze"/></rect> 
+</svg>
+<svg viewBox="0 0 209.6 144.8">
+<style type="text/css">
+.st0{ fill: none; stroke: #fff; opacity: .3; stroke-width: 1.25; }
+.st1{ fill: #fff; }
+</style>
+<g id="all">
+<circle vector-effect="non-scaling-stroke" id="bottom" class="st0" cx="102" cy="98.7" r="12.8"/>
+<circle vector-effect="non-scaling-stroke" id="base" class="st0" cx="104.8" cy="72.5" r="27"/>
+<circle vector-effect="non-scaling-stroke" id="middle" class="st0" cx="100.2" cy="60.2" r="25.8"/>
+<circle vector-effect="non-scaling-stroke" id="top" class="st0" cx="104.8" cy="56.5" r="26.9"/>
+<circle vector-effect="non-scaling-stroke" id="big-right" class="st0" cx="252.1" cy="146.1" r="170.1"/>
+<circle vector-effect="non-scaling-stroke" id="biggest-right" class="st0" cx="259.3" cy="145.3" r="183.8"/>
+<circle vector-effect="non-scaling-stroke" id="big-left" class="st0" cx="-42.4" cy="146.1" r="170.1"/>
+<circle vector-effect="non-scaling-stroke" id="biggest-left" class="st0" cx="-49.6" cy="145.3" r="183.8"/>
+</g>
+<path id="signet" class="st1" d="M125.6,89.6c-0.1-0.2-0.1-0.3-0.2-0.5c-2.5-7.8-5.5-15.3-8.9-22.6c-3.4-7.3-7.3-14.2-11.7-21l0,0c14.9,0,26.9,12.1,26.9,26.9C131.7,78.9,129.4,84.9,125.6,89.6 M114.8,81.5c-1.2,0.8-2.4,1.5-3.8,2.1c-3.1,1.4-6.3,2.2-9.6,2.3l0,0c-0.1,0-0.2,0-0.4,0c-4.6,0.4-8.8,3.2-10.8,7.8c-0.2,0.4-0.3,0.7-0.4,1.1l0,0l0,0c4.3,2.8,9.4,4.5,14.9,4.5c5.5,0,10.6-1.7,14.9-4.5c-0.4-1.2-0.8-2.5-1.2-3.7c-2.4-7-5.2-13.7-8.4-20.2c-1.6-3.3-3.4-6.6-5.2-9.8h0c-1.8,3.2-3.6,6.5-5.2,9.8c-1.7,3.5-3.3,7-4.8,10.6c3.1,1.2,6.5,1.9,10,1.9C108.3,83.4,111.7,82.8,114.8,81.5 M104.8,45.5c-14.9,0-26.9,12.1-26.9,26.9c0,6.5,2.3,12.5,6.2,17.1c0.1-0.2,0.1-0.3,0.2-0.5c2.5-7.8,5.5-15.3,8.9-22.6C96.6,59.2,100.5,52.2,104.8,45.5"/>
+</svg>
+</div>
+</body>
+</html>

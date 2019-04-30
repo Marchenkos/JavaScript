@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="application/javascript" src="Лаба 9.js"></script>
+<title>Лаба 9</title>
+</head>
+<body>
+<form>
+		<input type="radio" name="k" value="1"> y=x^2
+		<input type="radio" name="k" value="2"> y=x^3
+		<input type="radio" name="k" value="3"> y=sin(x)
+		<input type="radio" name="k" value="4"> y=cos(x) <br> <br>
+		Цвет: <select name="color">
+			<option>Красный</option>
+			<option>Зеленый</option>
+			<option>Розовый</option>
+			<option>Желтый</option>
+		</select> <br> <br>
+		<input type="button" value="Нарисовать" onClick="graph()">
+		</form>
+		<canvas id="map" width="700px" height="400px" style="position: absolute; border:1px solid #999999; background-color:gray"></canvas>
+</body>
+</html>
